@@ -33,11 +33,12 @@ export default function TalentFinder() {
             <SearchBar handleFilter={filterResults} />
             {
                 candidates && candidates.map(candidate => {
+                    console.log(candidate);
                     return (
                         <TalentCard
                             key={candidate.id}
                             name={candidate.data.candidate_name[0].text}
-                            imageUrl={candidate.data.candidate_avatar.url}
+                            imageUrl={candidate.data.candidate_avatar.small.url}
                             department={candidate.data.department}
                             slug={candidate.uid}
                         />
