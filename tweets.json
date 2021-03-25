@@ -1,0 +1,28 @@
+{
+    "tweets": [
+        {
+            "id": 1,
+            "userName": "John",
+            "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere ex maximus ex scelerisque, fermentum dictum lacus vulputate. Nulla ac tellus at arcu porttitor cursus. Donec a lacinia nisl.",
+            "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 2,
+            "userName": "Rodger",
+            "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere ex maximus ex scelerisque, fermentum dictum lacus vulputate. Nulla ac tellus at arcu porttitor cursus. Donec a lacinia nisl.",
+            "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 3,
+            "userName": "Sally",
+            "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere ex maximus ex scelerisque, fermentum dictum lacus vulputate. Nulla ac tellus at arcu porttitor cursus. Donec a lacinia nisl.",
+            "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 4,
+            "userName": "Laura",
+            "tweet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere ex maximus ex scelerisque, fermentum dictum lacus vulputate. Nulla ac tellus at arcu porttitor cursus. Donec a lacinia nisl.",
+            "imageUrl": "https://via.placeholder.com/150"
+        }
+    ]
+}
