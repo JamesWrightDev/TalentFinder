@@ -29,11 +29,11 @@ export default function TalentFinder() {
     }
     return (
         <div>
-            <h2 className="font-sans font-bold text-2xl text-center pb-6">Featured Talent</h2>
+            <h2 className="font-sans font-bold text-lg lg:text-2xl text-center pb-6">Featured Talent</h2>
             <SearchBar handleFilter={filterResults} />
             {
                 candidates && candidates.map(candidate => {
-                    console.log(candidate);
+
                     return (
                         <TalentCard
                             key={candidate.id}
